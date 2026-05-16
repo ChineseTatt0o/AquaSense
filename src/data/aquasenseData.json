@@ -1,0 +1,262 @@
+{
+  "brand": {
+    "name": "AquaSense",
+    "arabicLabel": "مراقبة المياه",
+    "tagline": "Water Intelligence for Morocco"
+  },
+  "user": {
+    "initials": "AB",
+    "name": "Ahmed Bennani",
+    "accountLabel": "Personal AquaSense account"
+  },
+  "topBar": {
+    "eyebrow": "Personal water intelligence account",
+    "status": "System Operational"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Your household and farm water performance at a glance",
+    "kpis": [
+      { "label": "Liters saved this month", "value": "6,850 L", "icon": "Droplets", "color": "text-sky-600" },
+      { "label": "Leaks detected", "value": "2 active / 2 resolved", "icon": "ShieldAlert", "color": "text-red-600" },
+      { "label": "Estimated bill savings", "value": "96 MAD", "icon": "Gauge", "color": "text-teal-700" },
+      { "label": "Sensors online", "value": "8 / 8", "icon": "MapPin", "color": "text-emerald-600" },
+      { "label": "Water waste reduced", "value": "14% vs last month", "icon": "Waves", "color": "text-cyan-600" },
+      { "label": "Smart routines active", "value": "4", "icon": "Leaf", "color": "text-lime-700" }
+    ],
+    "consumptionData": [
+      { "day": "D1", "liters": 560 },
+      { "day": "D2", "liters": 566 },
+      { "day": "D3", "liters": 569 },
+      { "day": "D4", "liters": 569 },
+      { "day": "D5", "liters": 564 },
+      { "day": "D6", "liters": 555 },
+      { "day": "D7", "liters": 544 },
+      { "day": "D8", "liters": 532 },
+      { "day": "D9", "liters": 522 },
+      { "day": "D10", "liters": 515 },
+      { "day": "D11", "liters": 512 },
+      { "day": "D12", "liters": 513 },
+      { "day": "D13", "liters": 518 },
+      { "day": "D14", "liters": 524 },
+      { "day": "D15", "liters": 528 },
+      { "day": "D16", "liters": 530 },
+      { "day": "D17", "liters": 528 },
+      { "day": "D18", "liters": 522 },
+      { "day": "D19", "liters": 512 },
+      { "day": "D20", "liters": 500 },
+      { "day": "D21", "liters": 488 },
+      { "day": "D22", "liters": 479 },
+      { "day": "D23", "liters": 474 },
+      { "day": "D24", "liters": 473 },
+      { "day": "D25", "liters": 476 },
+      { "day": "D26", "liters": 481 },
+      { "day": "D27", "liters": 487 },
+      { "day": "D28", "liters": 491 },
+      { "day": "D29", "liters": 491 },
+      { "day": "D30", "liters": 487 }
+    ],
+    "personalSavings": [
+      { "source": "Irrigation", "saved": 3900 },
+      { "source": "Tank overflow", "saved": 900 },
+      { "source": "Bathrooms", "saved": 850 },
+      { "source": "Kitchen", "saved": 650 },
+      { "source": "Laundry", "saved": 550 }
+    ],
+    "usageBreakdown": [
+      { "name": "Irrigation", "value": 36, "color": "#0f766e" },
+      { "name": "Bathrooms", "value": 27, "color": "#0ea5e9" },
+      { "name": "Kitchen", "value": 17, "color": "#38bdf8" },
+      { "name": "Laundry", "value": 14, "color": "#0891b2" },
+      { "name": "Other", "value": 6, "color": "#94a3b8" }
+    ],
+    "alerts": [
+      { "tone": "red", "text": "High pressure anomaly - main inlet valve", "time": "2 min ago" },
+      { "tone": "yellow", "text": "Soil moisture low - olive grove plot", "time": "18 min ago" },
+      { "tone": "green", "text": "Leak resolved - garden irrigation line", "time": "1 hr ago" },
+      { "tone": "red", "text": "Leak detected - rooftop tank overflow", "time": "3 hrs ago" },
+      { "tone": "yellow", "text": "Sensor battery low - bathroom meter", "time": "5 hrs ago" },
+      { "tone": "green", "text": "Pressure normalized - kitchen line", "time": "Yesterday" }
+    ],
+    "recommendations": [
+      { "title": "Rooftop tank outlet", "text": "Inspect the float valve before the evening peak; the overflow signature is the largest preventable loss.", "impact": "Save about 80 L/day" },
+      { "title": "Olive drip zone", "text": "Run a shorter 6am irrigation cycle and recheck moisture after four hours.", "impact": "Protect crop health" },
+      { "title": "Bathroom meter", "text": "Replace the low battery this week so night-flow alerts remain reliable.", "impact": "Reliability fix" }
+    ]
+  },
+  "sensorsPage": {
+    "title": "Sensors & Leaks",
+    "subtitle": "Live intelligence from your connected meters and valves",
+    "map": {
+      "label": "Personal Sensor Map",
+      "shape": "farm",
+      "activeSensors": "8 Sensors Monitored",
+      "description": "All monitored home, tank, garden, and small farm points",
+      "markers": [
+        { "position": "left-[46%] top-[38%] bg-red-500", "label": "Main valve" },
+        { "position": "left-[56%] top-[40%] bg-red-500", "label": "Tank outlet" },
+        { "position": "left-[42%] top-[56%] bg-yellow-400", "label": "Garden" },
+        { "position": "left-[58%] top-[58%] bg-yellow-400", "label": "Bathroom" },
+        { "position": "left-[50%] top-[70%] bg-yellow-400", "label": "Olive drip" },
+        { "position": "left-[37%] top-[43%] bg-emerald-500", "label": "Kitchen" },
+        { "position": "left-[63%] top-[49%] bg-emerald-500", "label": "Laundry" },
+        { "position": "left-[38%] top-[69%] bg-emerald-500", "label": "Cistern" }
+      ]
+    },
+    "sensors": [
+      { "id": "AS-HOME-001", "location": "Main inlet valve", "status": "Critical", "reading": "142 L/hr", "pressure": 6.8, "alert": "Pressure spike" },
+      { "id": "AS-HOME-002", "location": "Rooftop tank outlet", "status": "Critical", "reading": "118 L/hr", "pressure": 2.1, "alert": "Overflow pattern" },
+      { "id": "AS-HOME-003", "location": "Garden irrigation line", "status": "Warning", "reading": "78 L/hr", "pressure": 4.9, "alert": "Moisture low" },
+      { "id": "AS-HOME-004", "location": "Kitchen supply line", "status": "Online", "reading": "28 L/hr", "pressure": 3.7, "alert": "None" },
+      { "id": "AS-HOME-005", "location": "Bathroom meter", "status": "Warning", "reading": "36 L/hr", "pressure": 5.4, "alert": "Battery 18%" },
+      { "id": "AS-HOME-006", "location": "Laundry branch", "status": "Online", "reading": "44 L/hr", "pressure": 3.2, "alert": "None" },
+      { "id": "AS-HOME-007", "location": "Olive grove drip zone", "status": "Warning", "reading": "86 L/hr", "pressure": 2.8, "alert": "Dry soil" },
+      { "id": "AS-HOME-008", "location": "Backup cistern", "status": "Online", "reading": "19 L/hr", "pressure": 3.4, "alert": "None" }
+    ],
+    "riskPanel": [
+      {
+        "title": "High Risk Zones",
+        "count": "2",
+        "items": [
+          "Main inlet valve - pressure instability after evening peak",
+          "Rooftop tank outlet - overflow pattern detected"
+        ]
+      },
+      {
+        "title": "Medium Risk",
+        "count": "3",
+        "items": [
+          "Garden irrigation line - moisture mismatch",
+          "Bathroom meter - abnormal night flow",
+          "Olive grove drip zone - dry soil trend"
+        ]
+      },
+      {
+        "title": "Resolved This Week",
+        "count": "3",
+        "items": [
+          "Kitchen supply line - pressure normalized",
+          "Drip zone 2 - repaired emitter cluster"
+        ]
+      }
+    ]
+  },
+  "agriculture": {
+    "title": "Smart Irrigation Dashboard",
+    "subtitle": "Your farm's field-by-field water recommendations",
+    "cards": [
+      { "label": "Water used this week", "value": "8,600 L" },
+      { "label": "Recommended irrigation", "value": "Tomorrow, 6am" },
+      { "label": "Savings vs traditional", "value": "27%" },
+      { "label": "Crop health index", "value": "79/100" }
+    ],
+    "soilMoisture": [
+      { "day": "Day 1", "moisture": 62 },
+      { "day": "Day 2", "moisture": 65 },
+      { "day": "Day 3", "moisture": 63 },
+      { "day": "Day 4", "moisture": 58 },
+      { "day": "Day 5", "moisture": 51 },
+      { "day": "Day 6", "moisture": 49 },
+      { "day": "Day 7", "moisture": 50 },
+      { "day": "Day 8", "moisture": 53 },
+      { "day": "Day 9", "moisture": 53 },
+      { "day": "Day 10", "moisture": 49 },
+      { "day": "Day 11", "moisture": 42 },
+      { "day": "Day 12", "moisture": 38 },
+      { "day": "Day 13", "moisture": 39 },
+      { "day": "Day 14", "moisture": 42 }
+    ],
+    "irrigationComparison": [
+      { "week": "W1", "aquasense": 6600, "traditional": 9250 },
+      { "week": "W2", "aquasense": 7133, "traditional": 9560 },
+      { "week": "W3", "aquasense": 7342, "traditional": 9870 },
+      { "week": "W4", "aquasense": 7199, "traditional": 10180 },
+      { "week": "W5", "aquasense": 7002, "traditional": 10490 },
+      { "week": "W6", "aquasense": 7097, "traditional": 10800 },
+      { "week": "W7", "aquasense": 7563, "traditional": 11110 },
+      { "week": "W8", "aquasense": 8136, "traditional": 11420 }
+    ],
+    "crops": [
+      { "plot": "North field", "cropType": "Wheat", "soilMoisture": "38%", "lastIrrigated": "2 days ago", "recommendation": "Irrigate in 2 days" },
+      { "plot": "Lower terrace", "cropType": "Barley", "soilMoisture": "34%", "lastIrrigated": "3 days ago", "recommendation": "Drought risk - irrigate now" },
+      { "plot": "Olive grove", "cropType": "Olives", "soilMoisture": "46%", "lastIrrigated": "Yesterday", "recommendation": "Optimal - no action" },
+      { "plot": "Greenhouse row A", "cropType": "Tomatoes", "soilMoisture": "42%", "lastIrrigated": "Today", "recommendation": "Reduce irrigation by 12%" },
+      { "plot": "Citrus block", "cropType": "Citrus", "soilMoisture": "51%", "lastIrrigated": "Yesterday", "recommendation": "Optimal - no action" },
+      { "plot": "South plot", "cropType": "Sugar beet", "soilMoisture": "36%", "lastIrrigated": "4 days ago", "recommendation": "Irrigate tonight" }
+    ]
+  },
+  "crisis": {
+    "title": "Morocco's Water Reality",
+    "subtitle": "National context for conservation, resilience, and infrastructure planning",
+    "stats": [
+      { "label": "Average annual rainfall", "value": "30%", "detail": "drop since 1980" },
+      { "label": "Water availability", "value": "~500 m3", "detail": "per person per year" },
+      { "label": "Urban network losses", "value": "40%", "detail": "lost to leaks" },
+      { "label": "Agriculture demand", "value": "80%", "detail": "of total resources" },
+      { "label": "Major dams below 40%", "value": "7 / 12", "detail": "currently constrained" }
+    ],
+    "damFill": [
+      { "month": "Jun", "fill": 47 },
+      { "month": "Jul", "fill": 45 },
+      { "month": "Aug", "fill": 42 },
+      { "month": "Sep", "fill": 39 },
+      { "month": "Oct", "fill": 36 },
+      { "month": "Nov", "fill": 33 },
+      { "month": "Dec", "fill": 35 },
+      { "month": "Jan", "fill": 32 },
+      { "month": "Feb", "fill": 29 },
+      { "month": "Mar", "fill": 27 },
+      { "month": "Apr", "fill": 30 },
+      { "month": "May", "fill": 28 }
+    ],
+    "availability": [
+      { "region": "Tanger", "m3": 740 },
+      { "region": "Rabat", "m3": 620 },
+      { "region": "Fes", "m3": 510 },
+      { "region": "Marrakech", "m3": 390 },
+      { "region": "Souss", "m3": 310 },
+      { "region": "Draa", "m3": 260 }
+    ],
+    "demandSupply": [
+      { "year": 2020, "demand": 15.8, "supply": 14.5 },
+      { "year": 2025, "demand": 17.5, "supply": 13.6 },
+      { "year": 2030, "demand": 19.2, "supply": 12.7 },
+      { "year": 2035, "demand": 20.9, "supply": 11.8 },
+      { "year": 2040, "demand": 22.6, "supply": 10.9 }
+    ],
+    "textBlocks": [
+      {
+        "title": "Climate Change",
+        "text": "Hotter summers, shorter rainy seasons, and multi-year drought cycles are putting sustained pressure on reservoirs and aquifers, especially in interior and southern regions."
+      },
+      {
+        "title": "Role of Agriculture",
+        "text": "Agriculture remains essential to rural livelihoods, yet flood irrigation and crop choices can lock in high demand. Precision scheduling and drip systems can reduce withdrawals while protecting yield."
+      },
+      {
+        "title": "Government Initiatives",
+        "text": "Plan Maroc Vert and the Programme National d Economie d Eau support modernization, drip irrigation, dam infrastructure, and reuse projects that can be amplified with real-time intelligence."
+      }
+    ]
+  },
+  "chatbot": {
+    "title": "AquaSense Assistant",
+    "subtitle": "Powered by your local Ollama Aqua model",
+    "model": "Aqua:latest",
+    "ollamaUrl": "http://127.0.0.1:11434/api/chat",
+    "systemPrompt": "You are AquaSense Assistant, an expert AI on water management, agriculture, and the water crisis in Morocco. You help government officials, farmers, and NGO workers understand water data, get recommendations, and learn about the water situation. Be concise, data-driven, and professional. When relevant, reference Morocco-specific context.",
+    "emptyStateTitle": "Ask about Morocco's water systems",
+    "starters": [
+      "What are the main causes of water waste in Morocco?",
+      "How much water can drip irrigation save vs traditional methods?",
+      "Which sensors in my account have the highest leak risk?",
+      "What does the government's water savings plan involve?"
+    ]
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Prototype configuration",
+    "heading": "Demo Mode Enabled",
+    "description": "AquaSense is running with mocked sensors, national indicators, frontend-only chat state, and local JSON-driven telemetry for presentation use."
+  }
+}
